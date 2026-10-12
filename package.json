@@ -8,6 +8,9 @@
     "start": "node dist/server.js",
     "seed": "tsx src/seed/seed.ts"
   },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
